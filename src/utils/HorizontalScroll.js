@@ -36,7 +36,7 @@ export const HorizontalSyncFlatList = React.forwardRef(
       () => gridScrollOffset.value,
       (newScrollOffset) => {
         if (headerRef) {
-          scrollTo(headerRef, newScrollOffset, 0, true);
+          scrollTo(headerRef, newScrollOffset, 0, false);
         }
       },
     );
