@@ -653,6 +653,7 @@ export default class WeekView extends Component {
                     accessibilityLabel="Grid with horizontal scroll"
                     accessibilityHint="Grid with horizontal scroll"
                     scrollEventThrottle={16}
+                    showsHorizontalScrollIndicator={false}
                     renderItem={({ item }) => {
                       return (
                         <Events
