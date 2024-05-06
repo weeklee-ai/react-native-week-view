@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { View, InteractionManager, ActivityIndicator, Dimensions } from "react-native";
+import { View, InteractionManager, ActivityIndicator, Dimensions, Platform } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import moment from "moment";
 import memoizeOne from "memoize-one";
